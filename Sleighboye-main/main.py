@@ -1,6 +1,6 @@
 import time
 import inpass
-print("IGMASTER")
+print("SLEIGHBOYE")
 username=input("Enter Username of target account: ")
 password_file=input("Enter directory of passlist(recommended to create/add file in same venv folder as the main.py file):")
 
@@ -15,4 +15,5 @@ for password in passwords:
         print(f"Password {password} not matching")
     time.sleep(1)
 else:
+
     print("All passwords failed.")
